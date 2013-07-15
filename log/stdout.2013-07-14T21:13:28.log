@@ -1,0 +1,71 @@
+[Mon, 15 Jul 2013 02:12:56 GMT] INFO Server starting with config: {
+  "environment": "production",
+  "workers": "4",
+  "port": 4000,
+  "spdy": null,
+  "ssl": null,
+  "flash": {
+    "defaultClass": "alert",
+    "inlineClasses": {
+      "success": "alert alert-success",
+      "alert": "alert",
+      "error": "alert alert-error",
+      "info": "alert alert-info"
+    },
+    "blockClasses": {
+      "success": "alert alert-block alert-success",
+      "alert": "alert alert-block",
+      "error": "alert alert-block alert-error",
+      "info": "alert alert-block alert-info"
+    }
+  },
+  "debug": false,
+  "rotateWorkers": true,
+  "rotationWindow": 7200000,
+  "rotationTimeout": 300000,
+  "logDir": "/Users/omnomnomben/Documents/testapp/log",
+  "gracefulShutdownTimeout": 30000,
+  "heartbeatInterval": 5000,
+  "heartbeatWindow": 20000,
+  "staticFilePath": "/Users/omnomnomben/Documents/testapp/public",
+  "cacheControl": {
+    "expires": {
+      "default": 0
+    }
+  },
+  "sessions": {
+    "store": "cookie",
+    "key": "sid",
+    "expiry": 1209600
+  },
+  "cookieSessionKey": "sdata",
+  "i18n": {
+    "defaultLocale": "en-us",
+    "loadPaths": [
+      "/Users/omnomnomben/Documents/testapp/config/locales"
+    ]
+  },
+  "hostname": null,
+  "fullHostname": null,
+  "connectCompatibility": false,
+  "detailedErrors": false,
+  "model": {
+    "defaultAdapter": "mongo"
+  },
+  "db": {
+    "mongo": {
+      "username": null,
+      "dbname": "production",
+      "prefix": null,
+      "password": null,
+      "host": "localhost",
+      "port": 27017
+    }
+  },
+  "passport": {
+    "successRedirect": "/",
+    "failureRedirect": "/login"
+  },
+  "secret": "kLfrhEOh5SAFgQipssmzoDATuwgKbsls1pvA62Ae8SB5AKgcMTQoTAXsIinPI2ym17AR4DPhih3PaiCF8of1Xc1N7qv7w0bR4KZLbP9U5DD7MTEICbvVTXr2MATSDDrS"
+}
+[Mon, 15 Jul 2013 02:12:56 GMT] INFO Creating 4 worker processes.
